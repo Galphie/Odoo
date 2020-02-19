@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <openerp>
+        <data>
+            <report
+                id="custom_report_devman_tasks_hours"
+                model="dev.request"
+                string="Solicitudes"
+                report_type="qweb-pdf"
+                name="dev_manager.report_devman_tasks_hours"
+                attachment_use="False"
+                file="dev_manager.report_devman_tasks_hours"
+            />
+        </data>
+    </openerp>
